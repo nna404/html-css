@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando as fontes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(24, 97, 126);
+        }
+        h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(33, 136, 161);
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes serifadas</h1>
+
+    <p>Fontes serifadas atualmente são bastante usadas em títulos, pois acabam chamando a atenção. O título acima é um exemplo de fonte serifada "Times New Roman"</p>
+
+    <h2>Fontes não serifadas</h2>
+
+    <p>Exemplo de fonte sem serifa é a própria "Arial" que está sendo usada aqui</p>
+
+    <h2 style="font-family: 'Courier New', Courier, monospace;">Fontes mono espaçadas</h2>
+
+    <p style="font-family: 'Courier New', Courier, monospace;">Outro exemplo de fonte é as mono espaçadas, que possuem a mesma largura para todas as letras, igual a que está sendo usada aqui "Courier New"</p>
+    
+    <h2>Vamos falar de tamanhos?</h2>
+
+    <p>Podemos configurar tamanhos e estilos extras de qualquer componente textual do nosso documento HMTL5. Para especificar tamanhos de fontes, existem varias medidas como cm (centimetros), in (polegadas), pt (pontos), pc(paicas), px(pixels), etc. Para tamanhos de fontes a serem exibidos na tela a W3C recomenda o uso do <strong>px</strong> ou do <strong>em</strong>
+    </p>A medida <strong>em</strong> pode ser confusa no inicio, ela é uma medida referencial em relação ao tamanho original da fonte. O tamanho padrão de uma fonte é geralmente <strong>16px</strong>, isso equivale a <strong>1em</strong>. A partir daí, podemos configurar o tamanho de um título, por exemplo, como sendo 2 vezes maior. Usaremos o valor 2em para a propriedade.</p>
+    <!--Basicamente se colocarmos qualquer qualquer numero acima de 1 nesse parametro, teremos uma fonte x vezes maior que a atual -->
+
+    <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 2em;">Um título com 2 vezes o tamanho padrão de 1em</h1>
+
+    <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 1.5em;">Um titulo 1.5 vezes maior que o padrão de 1em</h2>
+
+    <p style="font-style: italic; font-weight: bold;">Podemos aplicar itálico e negrito no CSS através dos parametros <q>font-style</q> e <q>font-weight</q> Isso é fantastico</p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgrey;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        
+        div:hover {
+            background-color: yellow;
+        }
+
+        .hide > p {
+            text-align: justify;
+            display: none;
+        }
+
+        .hide:hover > p {
+            display: block;
+            background-color: red;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">1</div>
+    <div id="d2">2</div>
+    <div id="d3">3</div>
+    <h1>Texto oculto</h1>
+    <div class="hide">
+        Passe o mouse para mostrar o texto
+        <p>SURPRESAAAA</p>
+    </div>
+</body>
+</html>
