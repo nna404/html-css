@@ -13,10 +13,19 @@
 
         body{ 
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed;
+            */
+            background: black url('imagens/wallpaper002.jpg') center center repeat-y fixed;
+            background-size: cover;
+
+            /*
+            Shorthand de background 
+            color > image > position > repeat > [size] > attachment
+            */
         }
 
         h1 {
