@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /*Orientações em pé (portrait)*/
+
+body {
+    background: url(../imagens/cev-portrait.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
