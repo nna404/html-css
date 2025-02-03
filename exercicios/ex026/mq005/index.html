@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque saepe suscipit quaerat, atque quo, cupiditate quam aut veniam quisquam doloribus architecto, eius maxime. Sit explicabo accusamus laboriosam a quibusdam deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptates, neque iste labore impedit similique earum a maxime laboriosam nisi perspiciatis, molestias vero qui beatae est odio, esse perferendis sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis dolorem velit reprehenderit commodi quisquam! Fugiat labore sed alias hic ipsam et quaerat ut. Vitae deserunt in laborum autem tenetur nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus atque officia corporis autem adipisci, provident ea iure alias mollitia nemo, sunt quam rerum error repellat, earum omnis eligendi numquam quae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum reiciendis pariatur quisquam dolores iure aut officiis quo deleniti quidem laboriosam asperiores, tenetur maiores id eius aperiam similique sint animi? Reiciendis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum est explicabo corporis, voluptas aut enim officiis iusto excepturi! Id minima animi eum voluptatem. Rerum necessitatibus quisquam aliquam laboriosam. Accusamus, perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, blanditiis beatae minima aut dolorem, voluptatem at harum commodi iusto laudantium, ratione totam reiciendis? Quam quo totam molestiae sunt necessitatibus sapiente?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
